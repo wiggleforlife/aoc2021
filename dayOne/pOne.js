@@ -1,5 +1,5 @@
 var previousNumber = 0;
-var currentIndex = 0;
+var incrementCount = 0;
 var numbers = [];
 
 const fs = require('fs');
