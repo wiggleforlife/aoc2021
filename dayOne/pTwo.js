@@ -10,7 +10,6 @@ fs.readFile('input', (err, data) => {
     numbers.pop();
     previousNumber = parseInt(numbers[0]) + parseInt(numbers[1]) + parseInt(numbers[2]);
     for (var i = 1; i < numbers.length; i++) {
-        currentIndex = i;
 	var sum = parseInt(numbers[i]) + parseInt(numbers[i+1]) + parseInt(numbers[i+2]);
 	currentNumber = sum;
 	console.log(currentNumber);
