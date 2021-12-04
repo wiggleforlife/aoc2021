@@ -10,7 +10,8 @@ This is my first AoC, and I'm excited to participate. I look forward to further 
 * Reintroduction to C++
 
 ### Files that need to be converted to C++...
-
+* Day 3 - Puzzle 1
+* Day 3 - Puzzle 2
 
 Progress:
-![75%](https://progress-bar.dev/100?color=blue)
+![67%](https://progress-bar.dev/67)

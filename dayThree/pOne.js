@@ -9,7 +9,6 @@ var epsilonRate = "";
 fs.readFile('input', (err, data) => {
 	if (err) throw err;
 	numbers = data.toString().split('\n');
-	numbers.pop();
 	for (var i=0; i<numbers[0].length; i++) {
 		for (var ii=0; ii < numbers.length; ii++) {
 			console.log(numbers[ii]);
